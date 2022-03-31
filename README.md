@@ -1,1 +1,1 @@
-# Lab7
+This code is for a program counter and instruction decoder, including a ROM with instructions in machine code, and an adder for the program counter. The program counter gives an initial output that is sent to the ROM, and also sent to the adder to have 4 added to its value, and sent back to the program counter. The ROM then sends whatever the associated instructions are to the instruction decoder, which then takes the 32 bit machine code and isolates the destination register, 2 source registers, and immediately value bits and outputs them to the user.
